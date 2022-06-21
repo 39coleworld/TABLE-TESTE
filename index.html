@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Assets/icon-x.png">
+    <!--LINKS GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>TESTE</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="header">
+            <h1>Tabuada do Vinicius</h1>
+        </section>
+
+        <section class="content">
+            <h1>Selecione a sua Tabuada:</h1>
+            <input id="number" type="number" required min="1" max="10"> <br />
+            <button onclick="tabuada()">Calcular</button><br />
+        </section>
+
+        <section class="footer">
+            <div id='resultado' style='display:inline'></div>
+            <p>©2022 Desenvolvido por Cole World Developer</p>
+        </section>
+    </div>
+    <!--LINK SCRIPT-->
+    <script src="index.js"></script>
+</body>
+
+</html>
